@@ -1,0 +1,43 @@
+/* 我们要设计的两个页面的头部和底部都相同，所以可以统一写一个样式 */
+
+
+/* 快捷导航模块 */
+
+.shortcut {
+    height: 30px;
+    background-color: #f1f1f1;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.shortcut .left {
+    float: left;
+}
+
+.shortcut .right {
+    float: right;
+}
+
+.shortcut li {
+    float: left;
+}
+
+.shortcut li a {
+    padding: 0 15px;
+    border-right: 1px solid #666;
+}
+
+.lnr-chevron-down {
+    padding-right: 15px;
+    color: #666666;
+    font-size: 8px;
+    padding: 0 5px;
+    /* To get crisp results, use sizes that are
+    a multiple of 20; because Linearicons was
+    designed on a 20 by 20 grid. */
+}
+
+.right li:last-child a {
+    padding-right: 0;
+    border-right: none;
+}
