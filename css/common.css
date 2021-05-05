@@ -41,3 +41,44 @@
     padding-right: 0;
     border-right: none;
 }
+
+
+/* 头部样式设计 */
+
+header {
+    position: relative;
+    height: 105px;
+}
+
+header img {
+    display: inline-block;
+    margin: 23px 0;
+}
+
+header .search {
+    position: absolute;
+    left: 350px;
+    top: 25px;
+    width: 535px;
+    height: 35px;
+    line-height: 35px;
+    border: 2px solid #b1191a;
+}
+
+header .search input:first-child {
+    width: 453px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+header .search input:last-child {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 82px;
+    height: 100%;
+    background-color: #b1191a;
+    font-size: 14px;
+    color: aliceblue;
+}
