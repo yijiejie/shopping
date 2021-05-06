@@ -82,3 +82,50 @@ header .search input:last-child {
     font-size: 14px;
     color: aliceblue;
 }
+
+header ul {
+    position: absolute;
+    bottom: 19px;
+    left: 350px;
+}
+
+header ul li {
+    display: inline;
+    padding: 0 11px;
+}
+
+header ul li:first-child a {
+    color: #b1191a;
+}
+
+header .shopcar {
+    position: absolute;
+    top: 26px;
+    right: 63px;
+    width: 140px;
+    height: 35px;
+    background-color: #f7f7f7;
+    border: 1px solid #dfdfdf;
+    line-height: 35px;
+    text-align: center;
+    font-size: 12px;
+}
+
+header .shopcar .lnr-cart:before {
+    position: absolute;
+    left: 30px;
+    top: 7px;
+    color: #b1191a;
+    font-size: 19px;
+}
+
+header .shopcar i {
+    position: absolute;
+    left: 55px;
+}
+
+header .shopcar .lnr-chevron-right:before {
+    position: absolute;
+    right: 28px;
+    top: 10px;
+}
