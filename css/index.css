@@ -1,0 +1,206 @@
+.w .main {
+    margin-left: 210px;
+    padding: 10px 0 0 10px;
+    width: 980px;
+    height: 462px;
+}
+
+.main img {
+    float: left;
+    height: 100%;
+}
+
+.main .flash {
+    float: left;
+    width: 240px;
+    height: 100%;
+    margin-left: 7.5px;
+    background-color: #fff;
+}
+
+.flash .flashnews {
+    position: relative;
+    height: 34px;
+    width: 100%;
+    border: 1px solid #e4e4e4;
+    border-bottom: 1px dotted #e4e4e4;
+}
+
+.flash .flashnews h4 {
+    float: left;
+    padding: 10px 10px 8px 10px;
+    color: #333;
+    font-size: 14px;
+}
+
+.flash .flashnews a {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #666;
+}
+
+.flash .flashlinks {
+    height: 130px;
+    width: 100%;
+    border: 1px solid #e4e4e4;
+    border-top: none;
+}
+
+.flash .flashlinks ul {
+    margin: auto 13px;
+}
+
+.flash .flashlinks ul li {
+    padding-top: 6px;
+}
+
+.flash .flashlinks ul li a i {
+    font-weight: 600;
+}
+
+.flash .flashlinks ul li a {
+    color: #333;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.flash .flashapps {
+    width: 100%;
+    height: 207px;
+    border-left: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+    overflow: hidden;
+}
+
+.flash .flashapps ul {
+    width: 248px;
+    height: 100%;
+}
+
+.flash .flashapps ul li {
+    position: relative;
+    float: left;
+    height: 69px;
+    width: 62px;
+    border-bottom: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+}
+
+.flash .flashapps ul li i {
+    position: absolute;
+    top: 16px;
+    margin: 0 19px;
+    display: block;
+}
+
+.flash .flashapps ul li:first-child i {
+    width: 23px;
+    height: 23px;
+    background: url('../images/sprite_03.png') no-repeat -20px -12px;
+}
+
+.flash .flashapps ul li:nth-child(2) i {
+    width: 23px;
+    height: 23px;
+    background: url('../images/sprite_03.png') no-repeat -81px -14px;
+}
+
+.flash .flashapps ul li:nth-child(3) i {
+    width: 23px;
+    height: 23px;
+    background: url('../images/sprite_03.png') no-repeat -143px -14px;
+}
+
+.flash .flashapps ul li:nth-child(4) i {
+    background: url('../images/sprite_03.png') no-repeat -206px -14px;
+    width: 25px;
+    height: 20px;
+}
+
+.flash .flashapps ul li:nth-child(5) i {
+    background: url('../images/sprite_03.png') no-repeat -19px -85px;
+    width: 22px;
+    height: 22px;
+}
+
+.flash .flashapps ul li:nth-child(6) i {
+    background: url('../images/sprite_03.png') no-repeat -81px -84px;
+    width: 24px;
+    height: 24px;
+}
+
+.flash .flashapps ul li:nth-child(7) i {
+    width: 23px;
+    height: 23px;
+    background: url('../images/sprite_03.png') no-repeat -144px -84px;
+}
+
+.flash .flashapps ul li:nth-child(8) i {
+    width: 23px;
+    height: 23px;
+    background: url('../images/sprite_03.png') no-repeat -210px -84px;
+}
+
+.flash .flashapps ul li:nth-child(9) i {
+    width: 23px;
+    height: 23px;
+    background: url('../images/sprite_03.png') no-repeat -18px -156px;
+}
+
+.flash .flashapps ul li:nth-child(10) i {
+    background: url('../images/sprite_03.png') no-repeat -80px -155px;
+    width: 24px;
+    height: 24px;
+}
+
+.flash .flashapps ul li:nth-child(11) i {
+    background: url('../images/sprite_03.png') no-repeat -144px -156px;
+    width: 24px;
+    height: 16px;
+}
+
+.flash .flashapps ul li:last-child i {
+    width: 23px;
+    height: 23px;
+    background: url('../images/sprite_03.png') no-repeat -210px -156px;
+}
+
+.flash .flashapps ul li em {
+    position: absolute;
+    top: 47px;
+    width: 100%;
+    text-align: center;
+}
+
+.flash .flashapps ul li:nth-child(4n) {
+    border-right: none;
+}
+
+.flash .flashimg {
+    display: block;
+    width: 242px;
+    margin-top: 15px;
+}
+
+.flash .flashimg img {
+    width: 100%;
+}
+
+.recom {
+    height: 165px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.recom img {
+    float: left;
+}
+
+.recom img:first-child {
+    width: 206px;
+}
+
+.recom img:last-child {
+    width: 994px;
+}
